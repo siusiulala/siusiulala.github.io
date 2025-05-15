@@ -22,7 +22,7 @@ nav_exclude: # The following paths are excluded from navbar
 author:
   name: Sam Yang
   title: Software Engineer
-  image: https://i.imgur.com/uyDNQnn.jpg
+  image: /assets/img/SPACE.jpg # Change to your profile image
   # behance: your_username
   # dribbble          : your_username
   email: kai3d.lib@gmail.com
