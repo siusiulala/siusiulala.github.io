@@ -14,6 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {% include about/skills.html title="Mobile Application Development" source=site.data.mobile-skills %}
 {% include about/skills.html title="Desktop Application Development" source=site.data.app-skills %}
 {% include about/skills.html title="Backend Service Development" source=site.data.be-skills %}
+</div>
+<div class="row">
 {% include about/skills.html title="Database" source=site.data.db-skills %}
 {% include about/skills.html title="Media" source=site.data.media-skills %}
 {% include about/skills.html title="Cloud Services (SaaS)" source=site.data.saas-skills %}
