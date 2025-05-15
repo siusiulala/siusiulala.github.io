@@ -1,11 +1,81 @@
-- name: HTML5/CSS3
-  percentage: 90
+# Mobile Application Development
+- name: Swift
+  percentage: 92
   color: danger
 
-- name: Go
-  percentage: 80
+- name: Java (Mobile)
+  percentage: 88
+  color: primary
+
+# Desktop Application Development
+- name: C#
+  percentage: 95
+  color: success
+
+- name: Unity3D
+  percentage: 87
+  color: warning
+
+- name: Qt
+  percentage: 82
+  color: info
+
+# Backend Service Development
+- name: Java Spring Boot
+  percentage: 91
+  color: danger
+
+- name: ASP.Net
+  percentage: 85
   color:
 
-- name: Python
-  percentage: 70
+# Database
+- name: SQL Server
+  percentage: 89
   color: secondary
+
+- name: MySQL
+  percentage: 93
+  color: primary
+
+- name: Redis
+  percentage: 78
+  color: warning
+
+- name: MongoDB
+  percentage: 81
+  color: info
+
+# Media
+- name: Blender
+  percentage: 75
+  color: success
+
+- name: 3ds Max
+  percentage: 72
+  color: danger
+
+- name: Photoshop
+  percentage: 86
+  color:
+
+- name: Illustrator
+  percentage: 79
+  color: info
+
+- name: Premiere Pro
+  percentage: 74
+  color: secondary
+
+# Cloud Services (SaaS)
+- name: Azure
+  percentage: 84
+  color: primary
+
+- name: AWS
+  percentage: 88
+  color: warning
+
+- name: GCP
+  percentage: 80
+  color: success
