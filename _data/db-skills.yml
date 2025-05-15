@@ -1,0 +1,15 @@
+- name: SQL Server
+  percentage: 89
+  color: secondary
+
+- name: MySQL
+  percentage: 93
+  color: primary
+
+- name: Redis
+  percentage: 78
+  color: warning
+
+- name: MongoDB
+  percentage: 81
+  color: info

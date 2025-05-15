@@ -1,0 +1,11 @@
+- name: Azure
+  percentage: 84
+  color: primary
+
+- name: AWS
+  percentage: 88
+  color: warning
+
+- name: GCP
+  percentage: 80
+  color: success
