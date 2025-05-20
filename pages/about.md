@@ -22,6 +22,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </div>
 
 <div class="row">
-{% include about/timeline.html source=site.data.timeline-edu %}
-{% include about/timeline.html source=site.data.timeline %}
+{% include about/timeline.html title="Edu" source=site.data.timeline-edu %}
+{% include about/timeline.html title="Experance" source=site.data.timeline %}
 </div>
