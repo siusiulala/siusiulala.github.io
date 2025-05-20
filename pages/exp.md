@@ -12,5 +12,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <div class="row">
 {% include about/timeline.html title="Edu" source=site.data.timeline-edu %}
-{% include about/timeline.html title="Experance" source=site.data.timeline %}
+    <div class="timeline">
+        <div class="container left">
+            <div class="content">
+            <h2>2017</h2>
+            <p>Lorem ipsum..</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+            <h2>2016</h2>
+            <p>Lorem ipsum..</p>
+            </div>
+        </div>
+    </div>
 </div>
