@@ -1,5 +1,5 @@
 ---
-layout: exp
+layout: default
 title: Exp
 permalink: /exp/
 weight: 4
