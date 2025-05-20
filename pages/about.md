@@ -18,10 +18,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div class="row">
 {% include about/skills.html title="Database" source=site.data.db-skills %}
 {% include about/skills.html title="Media" source=site.data.media-skills %}
-{% include about/skills.html title="Cloud Services (SaaS)" source=site.data.saas-skills %}
+{% include about/skills.html title="Cloud Services" source=site.data.saas-skills %}
 </div>
 
 <div class="row">
-{% include about/timeline_edu.html %}
-{% include about/timeline.html %}
+{% include about/timeline.html source=site.data.timeline-edu %}
+{% include about/timeline.html source=site.data.timeline %}
 </div>
