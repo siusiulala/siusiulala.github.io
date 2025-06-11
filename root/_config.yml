@@ -1,0 +1,43 @@
+title: cvless
+description: Jekyll theme for a beautiful online CV
+baseurl: ""
+url: https://piazzai.github.io/cvless
+
+remote_theme: siusiulala/siusiulala.github.io
+
+# site settings
+taglong: Jekyll theme for a beautiful online CV
+tagshort: Jekyll theme
+cv: true
+
+# author settings
+author:
+  name: Place Holder
+  email: username@domain.com
+photo: assets/files/photo.jpg
+
+# profile links
+profile:
+  linkedin: https://www.linkedin.com/in/username
+  stackoverflow: https://stackoverflow.com/users/4574524/siusiulala
+  github: https://github.com/siusiulala
+
+# build settings
+permalink: pretty
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+  - docker-compose.yml
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+sass:
+  sourcemap: never

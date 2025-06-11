@@ -1,5 +1,4 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll-remote-theme"
-gem 'cvless', '~> 2.6'
-gem 'erb', '~> 4.0', '>= 4.0.4'
+source "https://rubygems.org"
+gemspec
