@@ -14,7 +14,7 @@ cv: true
 author:
   name: Place Holder
   email: username@domain.com
-photo: assets/files/photo.jpg
+photo: home/assets/files/photo.jpg
 
 # profile links
 profile:
