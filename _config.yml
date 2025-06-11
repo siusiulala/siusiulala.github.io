@@ -1,69 +1,52 @@
-### Site Settings ###
-title: Sam Yang
-description: >-
-  Software Engineer
-baseurl: "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository: siusiulala/siusiulala.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme: yousinix/portfolYOU
-open_new_tab: false # Opens external URLs in new tab (works for posts, projects and navbar only)
+title: cvless
+description: Jekyll theme for a beautiful online CV
+baseurl: ""
+url: https://piazzai.github.io/cvless
 
-### Plugins ###
-plugins:
-  - jemoji
+theme: cvless
 
-### Navbar Settings ###
-nav_exclude: # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
-  - documentation/partials/** # For Documentation Only
+# site settings
+taglong: Jekyll theme for a beautiful online CV
+tagshort: Jekyll theme
+cv: true
 
-### Author Info ###
+# author settings
 author:
-  name: Sam Yang
-  title: Software Engineer
-  image: /assets/img/SPACE.jpg # Change to your profile image
-  email: kai3d.lib@gmail.com
-  # facebook: your_username
-  github: siusiulala
-  # gitlab            : your_username
-  # instagram         : your_username
-  # kaggle            : your_username
-  linkedin: siusiulala
+  name: Place Holder
+  email: username@domain.com
+photo: assets/files/photo.jpg
+address: Foobar Hall 1.23
+phone: +1 234 567 890
 
-### Posts ###
-permalink: /blog/:title
+# profile links
+profile:
+  facebook: https://www.facebook.com/username
+  x: https://x.com/username
+  mastodon: https://mastodon.social/@username
+  bluesky: https://bsky.app/profile/username.bsky.social
+  instagram: https://www.instagram.com/username
+  linkedin: https://www.linkedin.com/in/username
+  xing: https://www.xing.com/profile/username
+  stackoverflow: https://stackoverflow.com/users/0000000/username
+  medium: https://medium.com/@username
+  github: https://github.com/username
 
-### Collections ###
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name
-  elements: # For Documentation Only
-    output: true # For Documentation Only
-
-# ### Analytics ###
-# analytics:
-#   enabled: false # Set true to enable analytics
-#   google:
-#     tracking_id: your-google-tracking-id
-
-### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false # Set to true to enable disqus comments
-
-### Exclude from processing ###
+# build settings
+permalink: pretty
 exclude:
-  - README.md
-  - CONTRIBUTING.md
   - LICENSE
-  - "*.log"
+  - README.md
+  - Gemfile
+  - vendor/
+  - docker-compose.yml
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+  

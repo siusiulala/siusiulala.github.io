@@ -1,7 +1,0 @@
-- name: Swift
-  percentage: 0
-  color: danger
-
-- name: Java (Mobile)
-  percentage: 0
-  color: primary

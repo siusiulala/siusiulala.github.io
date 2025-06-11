@@ -1,7 +1,0 @@
-- name: Java Spring Boot
-  percentage: 0
-  color: danger
-
-- name: ASP.Net
-  percentage: 0
-  color:
