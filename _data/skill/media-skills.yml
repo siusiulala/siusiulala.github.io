@@ -1,19 +1,19 @@
 - name: Blender
-  percentage: 75
+  percentage: 0
   color: success
 
 - name: 3ds Max
-  percentage: 72
+  percentage: 0
   color: danger
 
 - name: Photoshop
-  percentage: 86
+  percentage: 0
   color:
 
 - name: Illustrator
-  percentage: 79
+  percentage: 0
   color: info
 
 - name: Premiere Pro
-  percentage: 74
+  percentage: 0
   color: secondary

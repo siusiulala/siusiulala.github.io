@@ -1,11 +1,11 @@
 - name: C#
-  percentage: 95
+  percentage: 0
   color: success
 
 - name: Unity3D
-  percentage: 87
+  percentage: 0
   color: warning
 
 - name: Qt
-  percentage: 82
+  percentage: 0
   color: info

@@ -1,7 +1,7 @@
 - name: Swift
-  percentage: 92
+  percentage: 0
   color: danger
 
 - name: Java (Mobile)
-  percentage: 88
+  percentage: 0
   color: primary
