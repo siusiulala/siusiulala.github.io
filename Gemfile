@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-
-gem "jekyll-remote-theme"
-gem 'cvless', '~> 2.6'
-gem 'erb', '~> 4.0', '>= 4.0.4'
+gemspec
+gem 'ffi', '~> 1.15'
+gem 'nokogiri', '~> 1.15'

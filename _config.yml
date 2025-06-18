@@ -1,43 +1,197 @@
-title: cvless
-description: Jekyll theme for a beautiful online CV
-baseurl: ""
-url: https://piazzai.github.io/cvless
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
+# Content configuration version
+version: 2
+
+# Personal info
+name: Sam
+# title: Your job title
+email: kai3d.lib@gmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: jekyllrb
+github_username: siusiulala
+stackoverflow_username: "4574524"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+  - title: CV
+    icon: far fa-file-pdf
+    url: https://<domain>/resources/cv.pdf
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: /images/landscape-trees.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a dedicated software engineer with a deep passion for leveraging cutting-edge technologies to create innovative solutions. My academic background in Human Factors Engineering sparked my interest in developing intuitive and interactive programs, with a focus on human-computer interaction. Over the course of my career, I have evolved from specializing in user interfaces to mastering back-end and cloud technologies. Today, I am adept at independently planning and executing full-stack software projects, consistently staying abreast of the latest industry trends and advancements.
+
+content:
+  # - title: Projects
+  #   layout: list
+  #   content:
+  #     - layout: top-middle
+  #       border: weak
+  #       title: Project 1
+  #       link: https://sproogen.github.io/modern-resume-theme
+  #       additional_links:
+  #         - title: Github page for project
+  #           icon: fab fa-github
+  #           url: sproogen.github.io/modern-resume-theme
+  #       quote: >
+  #         Short overview of the project
+  #       description: >
+  #         Description about the work on/with the project
+
+  #     - title: Project 2
+  #       description: >
+  #         Description about the work on/with the project
+  - title: Experience
+    layout: list
+    content:
+      - layout: top
+        # border: weak
+        title: Coretronic Corporation
+        # link: https://google.com
+        sub_title: Engineering Section Manager
+        caption: July 2017 - Present
+        # quote: >
+        #   Short description of the company (optional)
+        description: >
+          + Directed the development of software applications for desktop and mobile platforms, ensuring robust performance and user satisfaction.
+
+          + Designed and delivered tailored software solutions for clients, enhancing projector functionalities and driving product adoption.
+
+          + Led initiatives to modernize legacy systems, improving efficiency, scalability, and maintainability to meet evolving client needs.
+
+          + Collaborated with cross-functional teams to align software deliverables with strategic business goals and client expectations.
+
+      - layout: top
+        # border: weak
+        title: Interaction Technologies in Highly Realistic Augmented Reality
+        sub_title: Senior Software Engineer
+        caption: May 2016 - April 2017
+        description: >
+          + Developed and maintained interactive applications with a focus on user-centric design, leveraging expertise in human-computer interaction.
+
+          + Implemented back-end solutions to support scalable and secure software systems, ensuring seamless integration with front-end components.
+
+          + Conducted system optimizations to enhance performance and reliability, addressing client feedback and technical requirements.
+
+          + Mentored junior developers, fostering a collaborative team environment and promoting best practices in software development.
+      - layout: top
+        title: AlphaInfo Inc.
+        sub_title: Software Engineer
+        caption: September 2014 - May 2016
+        description: >
+          + Designed and developed user interfaces for desktop and mobile applications, prioritizing usability and accessibility.
+
+          + Contributed to the development of back-end services, supporting robust application functionality and data management.
+
+          + Participated in agile development processes, delivering high-quality software increments in fast-paced environments.
+
+          + Engaged with clients to gather requirements and provide technical solutions, ensuring alignment with project objectives.
+  - title: Education
+    layout: list
+    content:
+      - title: National Tsing Hua University
+        border: weak
+        sub_title: 2011 - 2013
+        caption: Master Degree
+        # link: https://google.com
+        # quote: >
+        #   Short institution or course description
+        description: >
+          Description of qualification
+      - layout: left
+        title: National Tsing Hua University
+        sub_title: 2007 - 2011
+        # caption: >
+
+        # quote: >
+        #   Short institution or course description
+        description: >
+          + Bachelor of Industrial Engineering And Industrial Management
+
+          + Minor in Computer Science
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        # border: weak
+        title: Programming Languages
+        description: >
+          Python, JavaScript, C++, Java, SQL, HTML/CSS
+      - layout: left
+        title: Frameworks and Libraries
+        description: >
+          React, Node.js, Django, Flask, Bootstrap
+      - layout: left
+        title: Tools and Technologies
+        description: >
+          Git, Docker, Kubernetes, AWS, Azure
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+  #     ![alt text](/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 remote_theme: siusiulala/page-theme
 
-# site settings
-taglong: Jekyll theme for a beautiful online CV
-tagshort: Jekyll theme
-cv: true
-
-# author settings
-author:
-  name: Place Holder
-  email: username@domain.com
-photo: assets/files/photo.jpg
-
-# profile links
-profile:
-  linkedin: https://www.linkedin.com/in/username
-  stackoverflow: https://stackoverflow.com/users/4574524/siusiulala
-  github: https://github.com/siusiulala
-
-# build settings
-permalink: pretty
-exclude:
-  - LICENSE
-  - README.md
-  - Gemfile
-  - vendor/
-  - docker-compose.yml
+sass:
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate-v2
   - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-remote-theme
 
-sass:
-  sourcemap: never
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
