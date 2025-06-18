@@ -1,12 +1,12 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: siusiulala/siusiulala.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Sam
+name: Sam Yang
 # title: Your job title
 email: kai3d.lib@gmail.com
 # email_title: Email (Email title override)
@@ -26,7 +26,7 @@ stackoverflow_username: "4574524"
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-linkedin_username: jekyll
+linkedin_username: chih-kai-sam-yang
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -50,9 +50,13 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: /images/landscape-trees.jpg
+about_profile_image: /images/pic.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a dedicated software engineer with a deep passion for leveraging cutting-edge technologies to create innovative solutions. My academic background in Human Factors Engineering sparked my interest in developing intuitive and interactive programs, with a focus on human-computer interaction. Over the course of my career, I have evolved from specializing in user interfaces to mastering back-end and cloud technologies. Today, I am adept at independently planning and executing full-stack software projects, consistently staying abreast of the latest industry trends and advancements.
+  A software engineer with over 9 years of experience in full-cycle development across enterprise systems, AR/VR applications, and industrial automation. Proven track record in designing ERP modules, upgrading EIP platforms, and developing finance-related services using .NET.  
+
+  Experienced in integrating and commercializing AR/VR technologies, with hands-on skills in Unity3D, C++, and cross-platform deployment. Background includes real-time monitoring systems and HMI/SCADA development, with strong knowledge in sensor data integration.  
+
+  Holds a Master’s degree in Human Factors Engineering, combining technical expertise with user-centered design principles. Adept at bridging business needs and technical implementation, collaborating across teams, and mentoring developers. Committed to delivering reliable, scalable, and user-focused software solutions in dynamic and demanding environments.
 
 content:
   # - title: Projects
@@ -86,6 +90,12 @@ content:
         # quote: >
         #   Short description of the company (optional)
         description: >
+          + Developed work order and inventory management forms within the ERP system using .NET MVC, handling data model design, business logic implementation, and UI development to streamline operations and ensure data integrity.
+
+          + Participated in the EIP (Non-SAP) system upgrade project, adopting a .NET MVC and Vue.js architecture for system refactoring and frontend-backend decoupling, which improved maintainability and user experience.
+
+          + Designed and implemented forms for the Capital Management System using .NET Core API, covering modules such as payment requests, fund disbursements, and transaction tracking. Integrated financial control logic to enhance process transparency and auditability.
+
           + Directed the development of software applications for desktop and mobile platforms, ensuring robust performance and user satisfaction.
 
           + Designed and delivered tailored software solutions for clients, enhancing projector functionalities and driving product adoption.
@@ -94,31 +104,31 @@ content:
 
           + Collaborated with cross-functional teams to align software deliverables with strategic business goals and client expectations.
 
+          + Mentored junior developers, fostering a collaborative team environment and promoting best practices in software development.
       - layout: top
         # border: weak
         title: Interaction Technologies in Highly Realistic Augmented Reality
         sub_title: Senior Software Engineer
         caption: May 2016 - April 2017
         description: >
-          + Developed and maintained interactive applications with a focus on user-centric design, leveraging expertise in human-computer interaction.
+          + Assisted enterprise clients in adopting AR/VR technologies, providing technical assessments and tailored integration strategies to support digital transformation initiatives.
 
-          + Implemented back-end solutions to support scalable and secure software systems, ensuring seamless integration with front-end components.
+          + Integrated existing AR/VR toolkits and SDKs, extending functionality and customizing features to enhance system stability and user experience.
 
-          + Conducted system optimizations to enhance performance and reliability, addressing client feedback and technical requirements.
+          + Participated in the commercialization of AR/VR prototypes, including cross-platform deployment, performance optimization, and UI/UX refinement to accelerate time-to-market.
 
-          + Mentored junior developers, fostering a collaborative team environment and promoting best practices in software development.
+          + Developed interactive modules and immersive 3D experiences using Unity3D, C#, C++, OpenCV, and OpenGL, supporting various devices such as VR headsets and AR tablets.
+
       - layout: top
         title: AlphaInfo Inc.
         sub_title: Software Engineer
         caption: September 2014 - May 2016
         description: >
-          + Designed and developed user interfaces for desktop and mobile applications, prioritizing usability and accessibility.
+          + Contributed to the development of HMI/SCADA products, utilizing Qt and C++ to build human-machine interfaces for real-time monitoring, control logic visualization, and data display.
 
-          + Contributed to the development of back-end services, supporting robust application functionality and data management.
+          + Developed backend services for sensor data integration, using C# to implement middleware and APIs that aggregate data from various devices (e.g., temperature, humidity, power consumption, machine status).
 
-          + Participated in agile development processes, delivering high-quality software increments in fast-paced environments.
-
-          + Engaged with clients to gather requirements and provide technical solutions, ensuring alignment with project objectives.
+          + Designed data storage and caching strategies with MongoDB and Redis, improving historical data retrieval performance and real-time response efficiency.
   - title: Education
     layout: list
     content:
@@ -130,7 +140,11 @@ content:
         # quote: >
         #   Short institution or course description
         description: >
-          Description of qualification
+          Human Factors Engineering in Industrial Engineering   
+
+          Research Topic: _Virtual Shoe Try-On in Augmented Reality using Multiple Depth Sensors_  
+
+          [A virtual try-on system in augmented reality using RGB-D cameras for footwear personalization](https://www.researchgate.net/publication/263201599_A_virtual_try-on_system_in_augmented_reality_using_RGB-D_cameras_for_footwear_personalization)
       - layout: left
         title: National Tsing Hua University
         sub_title: 2007 - 2011
@@ -149,15 +163,15 @@ content:
         # border: weak
         title: Programming Languages
         description: >
-          Python, JavaScript, C++, Java, SQL, HTML/CSS
+          C#, C++, Java, JavaScript, Swift
       - layout: left
         title: Frameworks and Libraries
         description: >
-          React, Node.js, Django, Flask, Bootstrap
+          Java Spriing Boot, ASP.Net
       - layout: left
         title: Tools and Technologies
         description: >
-          Git, Docker, Kubernetes, AWS, Azure
+          Git, Docker, AWS, Azure, GCP, Unity3D, Qt
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
