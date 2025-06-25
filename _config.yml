@@ -187,6 +187,8 @@ content:
           Visualized POI heatmaps using GCP and Uber H3, integrated with telecom data for audience analysis to enable targeted advertising strategies
         description: >
           This project utilizes Google Cloud Platform’s geolocation API to analyze and aggregate various types of Points of Interest (POIs). Leveraging Uber’s H3 spatial indexing system, I generated hexagon-based heatmaps to visualize the density and distribution of POIs—such as tourist attractions, restaurants, and shopping areas—within targeted geographic regions. The results were further integrated with anonymized telecom mobility data to perform audience segmentation and behavioral analysis, supporting data-driven strategies for targeted advertising campaigns.
+
+          ![alt text](images/poi-h3-viewer.png "poi-h3-viewer")
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
