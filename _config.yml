@@ -175,7 +175,7 @@ content:
   - title: Projects
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         border: weak
         title: Geospatial Heatmap Analysis – Powered by GCP Geolocation API and Uber H3
         link: https://poi-h3-viewer.vercel.app/
